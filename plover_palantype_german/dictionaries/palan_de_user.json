@@ -1,0 +1,8 @@
+{
+"*": "=undo",
+"N-N": "{#Return}",
+"PLOC": "{PLOVER:LOOKUP}",
+"SC-P": "{#Escape}",
+"T-T": "{PLOVER:ADD_TRANSLATION}",
+"S-S": "{#tab}"
+}
