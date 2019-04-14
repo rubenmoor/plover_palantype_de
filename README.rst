@@ -1,18 +1,19 @@
-Plover Palantype
+Plover Palantype German
 ================
 
-Possum Palantype support for Plover.
+Possum Palantype support for Plover for German with two additional keys.
 
 Activating Palantype
 ~~~~~~~~~~~~~~~~~~~~
 
 After installing this plugin, you need to turn on Palantype in Plover:
 
-1. In Plover's configuration, go to the ``Systems`` tab, and change the active system to ``Possum Palantype``.
+1. In Plover's configuration, go to the ``Systems`` tab, and change the active system to ``Possum Palantype German``.
 2. In Plover's machine tab, select the ``Palantype`` machine and ensure the settings point to your Palantype machine.
 
     - "Palantype" machine type in Plover is what other CAT software calls "Palantype B".
     - If you have a *Neutrino* machine, you may need to select the "Gemini PR" protocol.
+    - To use all keys you need a Gemini PR protocol dedicated hardware
     - If you do not own a Palantype machine, you can use an N-key rollover keyboard instead, as outlined in `this tutorial <http://www.openstenoproject.org/palantype/tutorial/2016/08/21/learn-palantype.html>`_.
     - At this time, other protocols are not supported.
 
