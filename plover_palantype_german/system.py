@@ -131,6 +131,8 @@ KEYMAPS = {
 
 DICTIONARIES_ROOT = 'asset:plover_palantype:dictionaries'
 DEFAULT_DICTIONARIES = (
-    'palan_user.json',
-    'palan_sample.json'
+    'palan_de_user.json',
+    'palan_spelling.json',
+    'palan_numbers.json',
+    'palan_de_sample.json'
 )
