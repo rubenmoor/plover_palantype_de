@@ -1,1 +1,2 @@
+include tox.ini
 include plover_palantype_german/dictionaries/*.json
