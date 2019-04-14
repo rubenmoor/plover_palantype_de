@@ -129,7 +129,7 @@ KEYMAPS = {
     },
 }
 
-DICTIONARIES_ROOT = 'asset:plover_palantype:dictionaries'
+DICTIONARIES_ROOT = 'asset:plover_palantype_german:dictionaries'
 DEFAULT_DICTIONARIES = (
     'palan_de_user.json',
     'palan_spelling.json',
