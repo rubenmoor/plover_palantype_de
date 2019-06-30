@@ -23,8 +23,8 @@ class Palantype(plover.machine.base.SerialStenotypeBase):
 
     KEYS_LAYOUT = '''
            P- M- N-         -N -M -P
-        C- T- F- L-         -L -F -T -H
-     _- S- H- R- Y- O- I * -A -C -R -+ -S |-
+        C- T- F- L-         -L -F -T -H -r
+     |- S- H- R- Y- O- I * -A -C -R -+ -S -e
           +1-  +2-  E- I -U  -^1  -^2
     '''
 

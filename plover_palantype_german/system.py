@@ -1,15 +1,15 @@
 from plover.system import english_stenotype
 
 KEYS = (
-    '_-', '|-', 'S-', 'C-', 'P-', 'T-', 'H-', '+-', 'M-', 'F-', 'R-', 'N-', 'L-', 'Y-',
+    '|-', 'S-', 'C-', 'P-', 'T-', 'H-', '+-', 'M-', 'F-', 'R-', 'N-', 'L-', 'Y-',
     'O-', 'E-', '-A', '-U',
     'I',
-    '-^', '-N', '-L', '-C', '-M', '-F', '-R', '-P', '-T', '-+', '-S', '-H'
+    '-^', '-N', '-L', '-C', '-M', '-F', '-R', '-P', '-T', '-+', '-S', '-H', '-e', '-r'
 )
 
 IMPLICIT_HYPHEN_KEYS = ('O-', 'E-', '-A', '-U', 'I')
 
-SUFFIX_KEYS = ('-R', '-N')
+SUFFIX_KEYS = ('-R', '-N', '-e', '-Se', '-SHer', '-r', '-Hr', '-er')
 
 NUMBER_KEY = None
 
@@ -25,7 +25,8 @@ ORTHOGRAPHY_WORDLIST = None
 KEYMAPS = {
     'Keyboard': {
         '|-': '',
-        '_-': '',
+        '-e': '',
+        '-r': '',
         'S-': 'a',
         'C-': 'q',
         'P-': '2',
@@ -61,7 +62,7 @@ KEYMAPS = {
     },
     'Palantype': {
         '|-': '',
-        '_-': '',
+        '-e': '',
         'S-': 'S-',
         'C-': 'C-',
         'P-': 'P-',
@@ -94,8 +95,9 @@ KEYMAPS = {
     },
     'Gemini PR': {  # Neutrino Group makes their own Palantype system
         # In Eclipse this is called "Palantype B"
-        '_-': '*4',
-        '|-': '*3',
+        '|-': '*4',
+        '-e': '*3',
+        '-r': '-Z',
         'S-': 'S2-',
         'C-': 'S1-',
         'P-': '#3',
@@ -125,7 +127,7 @@ KEYMAPS = {
         '-+': '#A',
         '-S': '#B',
         '-H': '-T',
-        'no-op': ('pwr', 'res1', '#1', '#2', '#6', '-S', '#7', '-Z'),
+        'no-op': ('pwr', 'res1', '#1', '#2', '#6', '-S', '#7'),
     },
 }
 
