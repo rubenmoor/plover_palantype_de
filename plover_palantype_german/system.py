@@ -4,12 +4,12 @@ KEYS = (
     '|-', 'S-', 'C-', 'P-', 'T-', 'H-', '+-', 'M-', 'F-', 'R-', 'N-', 'L-', 'Y-',
     'O-', 'E-', '-A', '-U',
     'I',
-    '-^', '-N', '-L', '-C', '-M', '-F', '-R', '-P', '-T', '-+', '-S', '-H', '-e', '-r'
+    '-^', '-N', '-L', '-C', '-M', '-F', '-R', '-P', '-T', '-+', '-S', '-H', '-_'
 )
 
 IMPLICIT_HYPHEN_KEYS = ('O-', 'E-', '-A', '-U', 'I')
 
-SUFFIX_KEYS = ('-R', '-N', '-e', '-Se', '-SHer', '-r', '-Hr', '-er')
+SUFFIX_KEYS = ('-R', '-N', '-S', '-SH', '-H', '|-', '-_')
 
 NUMBER_KEY = None
 
@@ -24,9 +24,8 @@ ORTHOGRAPHY_WORDLIST = None
 
 KEYMAPS = {
     'Keyboard': {
-        '|-': '',
-        '-e': '',
-        '-r': '',
+        '|-': '1',
+        '-_': '.',
         'S-': 'a',
         'C-': 'q',
         'P-': '2',
@@ -58,11 +57,11 @@ KEYMAPS = {
         '-H': 'p',
         'arpeggiate': 'space',
         # Suppress adjacent keys to prevent miss-strokes.
-        'no-op'     : ('1', '5', '6', '7', 't', 'y', '[', ']', '-', '=', '\'', '\\'),
+        'no-op'     : ('5', '6', '7', 't', 'y', '[', ']', '-', '=', '\'', '\\'),
     },
     'Palantype': {
         '|-': '',
-        '-e': '',
+        '-_': '',
         'S-': 'S-',
         'C-': 'C-',
         'P-': 'P-',
@@ -96,8 +95,7 @@ KEYMAPS = {
     'Gemini PR': {  # Neutrino Group makes their own Palantype system
         # In Eclipse this is called "Palantype B"
         '|-': '*4',
-        '-e': '*3',
-        '-r': '-Z',
+        '-_': '*3',
         'S-': 'S2-',
         'C-': 'S1-',
         'P-': '#3',
