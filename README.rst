@@ -1,5 +1,5 @@
 Plover Palantype German
-================
+=======================
 
 Possum Palantype support for Plover for German with two additional keys.
 
