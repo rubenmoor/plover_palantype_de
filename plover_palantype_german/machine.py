@@ -9,7 +9,7 @@ STENO_KEY_CHART = (
     ('M-', '+2-', '+1-', 'H-', 'T-', 'P-', 'S-', 'C-'),
     ('-A', 'E-', 'O-', 'Y-', 'L-', 'N-', 'R-', 'F-'),
     ('-M', '-C', '-L', '-N', '-^2', '-^1', 'I', '-U'),
-    ('', '-S', '-H', '-+', '-T', '-P', '-R', '-F'),
+    ('-e', '-S', '-H', '-+', '-T', '-P', '-R', '-F'),
 )
 
 # This sequence *seems* arbitrary, but it is really what is sent by CAT software.
@@ -24,7 +24,7 @@ class Palantype(plover.machine.base.SerialStenotypeBase):
     KEYS_LAYOUT = '''
            P- M- N-         -N -M -P
         C- T- F- L-         -L -F -T -H
-     |- S- H- R- Y- O- I * -A -C -R -+ -S -_
+     |- S- H- R- Y- O- I * -A -C -R -+ -S -e
           +1-  +2-  E- I -U  -^1  -^2
     '''
 
