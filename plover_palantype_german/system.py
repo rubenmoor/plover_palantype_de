@@ -4,12 +4,12 @@ KEYS = (
     '|-', 'S-', 'C-', 'P-', 'T-', 'H-', '+-', 'M-', 'F-', 'R-', 'N-', 'L-', 'Y-',
     'O-', 'E-', '-A', '-U',
     'I',
-    '-^', '-N', '-L', '-C', '-M', '-F', '-R', '-P', '-T', '-+', '-S', '-H', '-_'
+    '-^', '-N', '-L', '-C', '-M', '-F', '-R', '-P', '-T', '-+', '-S', '-H', '-e'
 )
 
 IMPLICIT_HYPHEN_KEYS = ('O-', 'E-', '-A', '-U', 'I')
 
-SUFFIX_KEYS = ('-R', '-N', '-S', '-SH', '-H', '|-', '-_')
+SUFFIX_KEYS = ('-R', '-N', '-S', '-SH', '-H', '|-', '-e', '-SHe', '-He', '-Se')
 
 NUMBER_KEY = None
 
@@ -25,7 +25,7 @@ ORTHOGRAPHY_WORDLIST = None
 KEYMAPS = {
     'Keyboard': {
         '|-': '1',
-        '-_': '.',
+        '-e': '.',
         'S-': 'a',
         'C-': 'q',
         'P-': '2',
@@ -61,7 +61,7 @@ KEYMAPS = {
     },
     'Palantype': {
         '|-': '',
-        '-_': '',
+        '-e': '',
         'S-': 'S-',
         'C-': 'C-',
         'P-': 'P-',
@@ -95,7 +95,7 @@ KEYMAPS = {
     'Gemini PR': {  # Neutrino Group makes their own Palantype system
         # In Eclipse this is called "Palantype B"
         '|-': '*4',
-        '-_': '*3',
+        '-e': '*3',
         'S-': 'S2-',
         'C-': 'S1-',
         'P-': '#3',
