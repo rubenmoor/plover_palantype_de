@@ -3,4 +3,4 @@
 from setuptools import setup, Extension
 
 
-setup()
+setup(include_package_data=True)
