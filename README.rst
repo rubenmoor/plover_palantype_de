@@ -19,8 +19,13 @@ After installing this plugin, you need to turn on Palantype in Plover:
     - If you do not own a Palantype machine, you can use an N-key rollover keyboard instead, as outlined in `this tutorial <http://www.openstenoproject.org/palantype/tutorial/2016/08/21/learn-palantype.html>`_.
     - At this time, other protocols are not supported.
 
-3. Plover will install ``sample.json`` and ``user.json`` as dictionaries. You can remove the sample if you already have your own dictionary or want to start from scratch. Plover accepts ``json`` and ``RTF`` dictionaries. It is recommended to use ``user.json`` when adding new strokes.
-4. Note: at the moment, **only** ``ULFTS`` is supported to backspace the last stroke.
+3. Make sure the addon plover-python-dictionary is also installed.
+
+4. Download the most present version of the German Wordlist from here: https://sourceforge.net/projects/germandict/ Unpack the "german.dic" file into the folder where all the steno dictionaries are e.g. C:\Users\yourname\AppData\Local\plover\plover. Open german.dic e.g. with Notepad++ and convert it to UTF-8 and save it again.
+
+5. [Currently not yet] Plover will install ``palan_de_user.json``, ``palan_numbers.json``, ``palan_spelling.json``  and ``palantype_de.json`` as dictionaries and ``compound_builder.py`` as python dictionary. It is recommended to use ``user.json`` when adding new strokes. Those five files will be in the settings folder e.g. C:\Users\yourname\AppData\Local\plover\plover Add them to plover as dictionary in the following order: ``palantype_de.json``, palan_de_user.json``, ``palan_spelling.json`` ``palan_numbers.json`` and ``compound_builder.py``.
+
+6. Note: at the moment, **only** ``ULFTS`` is supported to backspace the last stroke.
 
 Common Commands
 ~~~~~~~~~~~~~~~
