@@ -1,5 +1,4 @@
 {
-"*": "=undo",
 "N-N": "{#Return}",
 "PLOC": "{PLOVER:LOOKUP}",
 "SC-P": "{#Escape}",
