@@ -1,7 +1,11 @@
 Plover Palantype German
 =======================
 
-Possum Palantype support for Plover for German with two additional keys.
+Possum Palantype support for Plover for German with two additional keys:
+
+- |- (the "pipe" symbol)
+- E-
+- -E
 
 The dictionaries can be found here: https://github.com/percidae/plover_palantype_german/tree/master/plover_palantype_german/dictionaries
 
