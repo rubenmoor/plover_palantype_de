@@ -19,13 +19,27 @@ For an introduction including beginner's lessons, checkout
 [palantype.com](https://palantype.com).
 
 Activating Palantype
-~~~~~~~~~~~~~~~~~~~~
+======================
 
 After installing this plugin, you need to turn on Palantype in Plover:
 
 1. In Plover's configuration, go to the ``Systems`` tab, and change the active system to ``Palantype DE``.
 2. In Plover's machine tab, select ``keyboard``.
-3. TODO: dictionaries
-4. TODO: basic strokes to get started
 
-TODO: define common commands
+Current state
+=====================
+
+The dictionary contains over 100'000 thousand words of the German language.
+For productive use, a list of over 2'000'000 words has to be included (currently in progress).
+
+Apart from `ILKSn` to delete the last input, there are no command keys implemented.
+
+Missing features
+=====================
+
+* numbers
+* arrow keys for navigation
+* implement capitalize last word
+* paragraph (return key)
+* hyphenation of arbitrary words
+* ...
