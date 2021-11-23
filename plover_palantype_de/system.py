@@ -7,8 +7,7 @@ KEYS = (
     '-+', '-L', '-M', '-N', '-K', '-P', '-F', '-S', '-ʃ', '-s', '-n', '-D'
 )
 
-IMPLICIT_HYPHEN_KEYS = () # TODO: verify: what are implicit hyphen keys?
-## ('O-', 'E-', '-A', '-U', 'I')
+IMPLICIT_HYPHEN_KEYS = ('R-', 'Ä-', 'E-', 'A-', '~-', '-U', '-I', '-O', '-Ü', '-+')
 
 SUFFIX_KEYS = () # TODO: verify: what are suffix keys? ## ('-S',)
 
@@ -18,10 +17,10 @@ NUMBERS = {}
 
 UNDO_STROKE_STENO = 'ILKSn'
 
-ORTHOGRAPHY_RULES = None # TODO: verify correct syntax
+ORTHOGRAPHY_RULES = [] # TODO: verify correct syntax
 ##english_stenotype.ORTHOGRAPHY_RULES
 
-ORTHOGRAPHY_RULES_ALIASES = None # TODO: verify correct syntax
+ORTHOGRAPHY_RULES_ALIASES = {} # TODO: verify correct syntax
 ##english_stenotype.ORTHOGRAPHY_RULES_ALIASES
 
 ORTHOGRAPHY_WORDLIST = None
@@ -64,7 +63,7 @@ KEYMAPS = {
     },
 }
 
-DICTIONARIES_ROOT = 'asset:plover_palantype_de:dictionaries'
+DICTIONARIES_ROOT = 'plover_palantype_de/dictionaries'
 DEFAULT_DICTIONARIES = (
     'palantype_de.json'
 )
