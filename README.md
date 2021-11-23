@@ -13,10 +13,10 @@ Qwerty-keyboards as long as they support N-key roll-over (NKRO).
 The optimal experience is to be expected with an Ergodox keyboard
 or similar, i.e. a keyboard that allows full use of the thumbs.
 
-![The Palantype DE keyboard layout]()
+![The Palantype DE keyboard layout](https://raw.githubusercontent.com/rubenmoor/plover_palantype_german/palantype_de/keyboard_layout.bmp)
 
 For an introduction including beginner's lessons, checkout
-[palantype.com.](https://palantype.com).
+[palantype.com](https://palantype.com).
 
 Activating Palantype
 ~~~~~~~~~~~~~~~~~~~~
