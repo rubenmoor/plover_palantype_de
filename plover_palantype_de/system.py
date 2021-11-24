@@ -64,6 +64,4 @@ KEYMAPS = {
 }
 
 DICTIONARIES_ROOT = 'plover_palantype_de/dictionaries'
-DEFAULT_DICTIONARIES = (
-    'palantype_de.json'
-)
+DEFAULT_DICTIONARIES = ( 'palantype_de.json',)
