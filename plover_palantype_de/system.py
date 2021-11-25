@@ -1,27 +1,28 @@
 from plover.system import english_stenotype
 
+# cf. https://plover.readthedocs.io/en/4.0.0-dev8/api/system.html
+
 KEYS = (
     'S-', 'B-', 'G-', 'H-', 'D-', 'F-', 'M-', 'J-', 'W-', 'L-', 'N-', 'R-',
     'Ä-', 'E-', 'A-', '~-',
     '-U', '-I', '-O', '-Ü',
-    '-+', '-L', '-M', '-N', '-K', '-P', '-F', '-S', '-ʃ', '-s', '-n', '-D'
+    '-+', '-L', '-M', '-N', '-K', '-P', '-F', '-S', '-ʃ', '-s', '-D', '-n'
 )
 
 IMPLICIT_HYPHEN_KEYS = ('R-', 'Ä-', 'E-', 'A-', '~-', '-U', '-I', '-O', '-Ü', '-+')
 
-SUFFIX_KEYS = () # TODO: verify: what are suffix keys? ## ('-S',)
+SUFFIX_KEYS = ()
 
 NUMBER_KEY = None
 
 NUMBERS = {}
 
-UNDO_STROKE_STENO = 'ILKSn'
+# Type: str or None
+UNDO_STROKE_STENO = 'ILKSD'
 
-ORTHOGRAPHY_RULES = [] # TODO: verify correct syntax
-##english_stenotype.ORTHOGRAPHY_RULES
+ORTHOGRAPHY_RULES = []
 
-ORTHOGRAPHY_RULES_ALIASES = {} # TODO: verify correct syntax
-##english_stenotype.ORTHOGRAPHY_RULES_ALIASES
+ORTHOGRAPHY_RULES_ALIASES = {}
 
 ORTHOGRAPHY_WORDLIST = None
 
@@ -57,8 +58,8 @@ KEYMAPS = {
         '-S': 'o',
         '-ʃ': 'l',
         '-s': 'p',
-        '-n': ';',
-        '-D': '/',
+        '-D': ';',
+        '-n': '/',
         'arpeggiate': 'space',
     },
 }
