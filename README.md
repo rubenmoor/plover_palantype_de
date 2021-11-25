@@ -53,13 +53,13 @@ an on-line text editor for steno typing.
 Current state
 =====================
 
-The dictionary contains over 100'000 thousand words of the German language.
+The dictionary contains over 100'000 words of the German language.
 For productive use, a list of over 2'000'000 words has to be included (currently in progress).
 
 Apart from `ILKSn` to delete the last input, there are no command keys implemented.
 
 Missing features
-=====================
+---------------------
 
 * numbers
 * arrow keys for navigation
@@ -67,3 +67,13 @@ Missing features
 * paragraph (return key)
 * hyphenation of arbitrary words
 * ...
+
+Acknowledgments
+======================
+
+The current list of over 100'000 words uses word frequency information to
+resolve collisions, i.e. ambiguous steno chords.
+The word frequency information has been provided by
+the Natural Language Processing Group, Uni Leipzig.
+It is generated out of a [corpus of 35 Million sentences](https://wortschatz.uni-leipzig.de/en) and distributed under
+the [Creative Commons Attribution-NonCommercial 4.0 International Public Licence](https://creativecommons.org/licenses/by-nc/4.0/).

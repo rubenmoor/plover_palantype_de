@@ -10,6 +10,7 @@
   targetPkgs = pkgs: (with pkgs; [
     python39
     python39Packages.pip
+    python39Packages.twine
     python39Packages.virtualenv
   ]);
 }).env
