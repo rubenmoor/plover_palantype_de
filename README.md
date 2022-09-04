@@ -1,3 +1,5 @@
+Deprecated, this plover plugin moved to [Palantype DE](https://github.com/rubenmoor/palantype_DE).
+
 Palantype DE
 =======================
 
